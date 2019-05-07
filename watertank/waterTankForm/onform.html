@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+				
+		<!--meta HTTP-EQUIV="REFRESH" content="10;url=http://www.google.com/"-->
+				
+		<title>Water Tank Form</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">	
+		<link href="home.css" rel="stylesheet" media="screen">
+                <link href="index.css" rel="screenshot" 	
+
+	</head>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+<style>
+
+
+/*  */
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+/*  */
+</style>
+
+	<body>
+			<center>
+			<header><h1>Water Tank Form</h1></header>
+			<table><form
+				action="../cgi-bin/wBRLCAD/civil/watertank/script" method="GET"><tr> 
+ <td>Foundataion Column Depth</td>
+<td><input type=text name=foundataionColumnDepth value=2400><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Plinth Depth</td> 
+ <td><input type=text name=plinthDepth value=150><a class="screenshot" rel="foundationOuter.jpg">Help</a></td></tr>
+<tr> 
+ <td>Above Ground colHeight</td> 
+ <td><input type=text name=aboveGroundcolHeight value=500><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>Foundation Diameter</td> 
+ <td><input type=text name=foundationDiameter value=10000><a class="screenshot" rel="foundationCut.jpg" >Help</a></td></tr>
+<tr> 
+ <td>Col No</td> 
+ <td><input type=text name=colno value=8><a class="screenshot" rel="stagingHeight.jpg"  target="_blank">Help</a></td></tr>
+<tr> 
+ <td>Database Name</td> 
+ <td><input type=text name=databaseName value=columns.g><a title="Name of .g file">Help</a></td></tr>
+<tr> 
+ <td>Col Diameter</td> 
+ <td><input type=text name=colDiameter value=500><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>Brace Width</td> 
+ <td><input type=text name=braceWidth value=300><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>Brace Depth</td> 
+ <td><input type=text name=braceDepth value=600><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>TopRing BeamWidth</td>
+ <td><input type=text name=topRingBeamWidth value=300><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>TopRing BeamDepth</td> 
+ <td><input type=text name=topRingBeamDepth value=300><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Cylinder Diameter</td> 
+ <td><input type=text name=cylinderDiameter value=12000><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Middle Ring BeamWidth</td> 
+ <td><input type=text name=middleRingBeamWidth value=1000><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Middle Ring BeamDepth</td> 
+ <td><input type=text name=middleRingBeamDepth value=600><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Brace Clear Height</td> 
+ <td><input type=text name=braceClearHeight value=3900><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>Cylinder Thicknes Top</td> 
+ <td><input type=text name=cylinderThicknesTop value=150><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Cylinder Thickness Bottom</td> 
+ <td><input type=text name=cylinderThicknessBottom value=300><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Cylinder Height</td> 
+ <td><input type=text name=cylinderHeight value=6000><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Bottom Ring BeamWidth</td> 
+ <td><input type=text name=bottomRingBeamWidth value=500><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Bottom Ring BeamDepth</td> 
+ <td><input type=text name=bottomRingBeamDepth value=800><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Foundation BeamWidth</td> 
+ <td><input type=text name=foundationBeamWidth value=700><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Foundation beamDepth</td> 
+ <td><input type=text name=foundationbeamDepth value=900><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing Depth</td>
+ <td><input type=text name=footingDepth value=2400><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Staging Height</td> 
+ <td><input type=text name=stagingHeight value=25500><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>Conical DomeHeight</td> 
+ <td><input type=text name=conicalDomeHeight value=2000><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Foundation Projection Inner</td> 
+ <td><input type=text name=foundationProjectionInner value=1100><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing DepthInner</td> 
+ <td><input type=text name=footingDepthInner value=800><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Foundation Projection Outer</td> 
+ <td><input type=text name=foundationProjectionOuter value=1500><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing DepthOuter</td> 
+ <td><input type=text name=footingdepthOuter value=800><a class="screenshot" rel="foundationOuter.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing thickness InnerEdge</td> 
+ <td><input type=text name=footingthicknessInnerEdge value=600><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing HorizontalInner</td> 
+ <td><input type=text name=footingHorizontalInner value=25><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing Thickness OuterEdge</td> 
+ <td><input type=text name=footingThicknessOuterEdge value=400><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>Footing Horizontal Outer</td> 
+ <td><input type=text name=footingHorizontalOuter value=25><a class="screenshot" rel="foundationCut.jpg">Help</a></td></tr>
+<tr> 
+ <td>TopDome Thickness</td>
+ <td><input type=text name=topDomeThickness value=100><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>TopDome Rise</td> 
+ <td><input type=text name=topDomeRise value=1500><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>BottomDome Thickness</td> 
+ <td><input type=text name=bottomDomeThickness value=200><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>BottomDome Rise</td> 
+ <td><input type=text name=bottomDomeRise value=1200><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>ConicalDome Thickness</td> 
+ <td><input type=text name=conicalDomeThickness value=500><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>Brace Number</td> 
+ <td><input type=text name=braceNumber value=4><a class="screenshot" rel="stagingHeight.jpg">Help</a></td></tr>
+<tr> 
+ <td>ExtraCover InEarth</td> 
+ <td><input type=text name=extraCoverInEarth value=25><a class="screenshot" rel="plinth.jpg">Help</a></td></tr>
+<tr> 
+ <td>OuterCover Width</td> 
+ <td><input type=text name=outerCoverWidth value=25><a class="screenshot" rel="cylinder.jpg">Help</a></td></tr>
+<tr> 
+ <td>SteelBar Diameter</td> 
+ <td><input type=text name=steelBarDiameter value=4><a class="screenshot" rel="diameter.jpg">Help</a></td></tr>
+<tr> 
+ <td>Steel BarNo</td> 
+ <td><input type=text name=steelBarNo value=8><a class="screenshot" rel="diameter.jpg">Help</a></td></tr>
+<tr> 
+ <td>Stirrup Width</td> 
+ <td><input type=text name=stirrupWidth value=8><a class="screenshot" rel="diameter.jpg">Help</a></td></tr>
+<tr> 
+ <td>Column Height Partitioner</td> 
+ <td><input type=text name=columnHeightPartitioner value=6><a class="screenshot" rel="fig 7.jpg" title="It is a Height of total columns used in watertank">Help</a></td></tr>
+<tr> 
+ <td>Stirrup Smaller Distance</td> 
+ <td><input type=text name=stirrupSmallerDistance value=100><a class="screenshot" rel="stirrupt.jpg">Help</a></td></tr>
+<tr> 
+ <td>Stirrup Greater Distance</td> 
+ <td><input type=text name=stirrupGreaterDistance value=150><a class="screenshot" rel="stirrupt.jpg" >Help</a></td></tr>
+</table><input class="btn btn-large btn-primary" type=submit value=Submit></center>
+</form>
+</br>
+</body>
+</html>

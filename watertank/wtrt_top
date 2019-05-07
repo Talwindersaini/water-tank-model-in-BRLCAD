@@ -1,0 +1,15 @@
+#!/bin/sh
+env /usr/brlcad/bin/rt -M \
+ -o wtrt_top.pix\
+ $*\
+ '/home/talwinder/public_html/cgi-bin/wBRLCAD/civil/watertank/columns.g'\
+ 'watertank.r' \
+ 2>> wtrt_top.log\
+ <<EOF
+viewsize 6.47000000000000e+04;
+orientation 8.65956056235493e-17 8.65956056235493e-17 7.07106781186548e-01 7.07106781186547e-01;
+eye_pt 0.00000000000000e+00 0.00000000000000e+00 1.30782872797585e+05;
+start 0; clean;
+end;
+
+EOF
